@@ -46,12 +46,15 @@ body{
 }
 
 .links{
-    
-    font-size:1.5rem;
+    position: static;
+    margin: auto;
+    font-size:1.20rem;
     list-style: none;
     display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 5rem;
+    gap: 9rem;
+    margin-left: 23rem;
     
 }
 
@@ -77,15 +80,16 @@ body{
 }
 
 .getintouch{
-    margin-left: 20rem;
-    margin-right: 10rem;
+    position: static;
+    margin-right: auto;
+    margin-left: 10rem;
     padding: 1rem 2rem;
     font-size: 1.25rem;
     color: #fff;
     background-color: #6798c0;
     border-radius: 1.25rem;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
 }
 
 .getintouch:hover{
