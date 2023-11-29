@@ -392,6 +392,17 @@ footer{
     }
 }
 
+@media (max-width:1270px){
+    .header .content h1{
+        font-size: 1.60rem;
+        line-height: 1.62rem
+    }
+    .header .content p{
+        font-size: 0.9rem;
+        line-height: 1rem;
+    }
+}
+
 @media (max-width: 1157px){
     .links{
         max-width: 100%;
